@@ -1,0 +1,38 @@
+
+body{
+
+    background: blue;
+}
+
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.grid div {
+    width: 100px;
+    height: 100px;
+    background-color:gray;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+span{
+
+    color:red;
+}
+
+.box{
+
+    color:green;
+    background-color: grey; /* not changing background color */
+    
+}
+
+
